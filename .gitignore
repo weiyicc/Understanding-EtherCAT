@@ -1,0 +1,17 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local dependencies and temporary files
+node_modules/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.template
